@@ -1,0 +1,11 @@
+alias rm rm -i
+alias h history
+alias ltr 'ls -ltrh'
+
+# max size folders in current folder
+alias idu 'du --max-depth 1 -h | sort -hr'
+
+# like idu, and display only folders with M or G bytes
+alias idubig 'idu | grep "^[0-9.]*[MG]"'
+
+alias cd 'chdir \!* && setpromt'
